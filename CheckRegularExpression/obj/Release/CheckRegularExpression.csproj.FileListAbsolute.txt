@@ -1,0 +1,14 @@
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\bin\Release\CheckRegularExpression.exe.config
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\bin\Release\CheckRegularExpression.exe
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\bin\Release\CheckRegularExpression.pdb
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\MainWindow.g.cs
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\App.g.cs
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\CheckRegularExpression_MarkupCompile.cache
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\CheckRegularExpression_MarkupCompile.lref
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\MainWindow.baml
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\CheckRegularExpression.g.resources
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\CheckRegularExpression.Properties.Resources.resources
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\CheckRegularExpression.csproj.GenerateResource.Cache
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\CheckRegularExpression.exe
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\CheckRegularExpression.pdb
+C:\Users\apoll\Projects\C#\CheckRegularExpression\CheckRegularExpression\obj\Release\CheckRegularExpression.csprojResolveAssemblyReference.cache
