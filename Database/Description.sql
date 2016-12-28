@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Description]
+(
+	[Id] INT NOT NULL PRIMARY KEY Identity(1,1),
+	[t1] NVARCHAR(10) NULL,
+	[t2] NVARCHAR(150) NULL,
+	[t3] NVARCHAR(20) NULL,
+	[t4] NVARCHAR(50) NULL
+)

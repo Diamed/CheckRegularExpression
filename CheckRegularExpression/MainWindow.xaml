@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="Check Regular Expression" Height="361.333" Width="525">
     <Grid>
-        <TextBox x:Name="tbPattern" Height="55" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
+        <TextBox x:Name="TbPattern" Height="55" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
                  VerticalAlignment="Top" Margin="0,0,10,0" AcceptsReturn="True" TabIndex="0"/>
-        <TextBox x:Name="tbResultText" VerticalScrollBarVisibility="Auto" TabIndex="3" 
+        <TextBox x:Name="TbResultText" VerticalScrollBarVisibility="Auto" TabIndex="3" 
                  TextWrapping="Wrap" Margin="0,86,10,10"/>
-        <Button x:Name="btnCheck" Content="Check" VerticalAlignment="Top" Click="BtnCheck_ClickAsync"
+        <Button x:Name="BtnCheck" Content="Check" VerticalAlignment="Top" Click="BtnCheck_ClickAsync"
                 Margin="0,60,10,0" HorizontalAlignment="Right" Width="75" TabIndex="2"/>
-        <TextBox x:Name="tbUrl" Height="20" Margin="0,60,105,0" TabIndex="1"
-                 TextWrapping="Wrap" VerticalAlignment="Top" KeyDown="tbUrl_KeyDown"/>
+        <TextBox x:Name="TbUrl" Height="20" Margin="0,60,105,0" TabIndex="1"
+                 TextWrapping="Wrap" VerticalAlignment="Top" KeyDown="TbUrl_KeyDown"/>
     </Grid>
 </Window>
