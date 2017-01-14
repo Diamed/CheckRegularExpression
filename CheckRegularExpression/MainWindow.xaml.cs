@@ -1,7 +1,7 @@
 ﻿using System.Net.Http;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Windows;
-using System.Windows.Forms;
 using System.Windows.Input;
 
 namespace CheckRegularExpression
@@ -22,7 +22,7 @@ namespace CheckRegularExpression
 
 		private void Dispatcher_UnhandledException(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
 		{
-			System.Windows.MessageBox.Show(e.Exception.Message, "Ошибка");
+			MessageBox.Show(e.Exception.Message, "Ошибка");
 		}
 
 		private void BtnCheck_ClickAsync(object sender, RoutedEventArgs e)
@@ -30,7 +30,7 @@ namespace CheckRegularExpression
 			FillResultsAsync();
 		}
 
-		private void TbUrl_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+		private void TbUrl_KeyDown(object sender, KeyEventArgs e)
 		{
 			if (e.Key == Key.Enter)
 			{
@@ -48,7 +48,8 @@ namespace CheckRegularExpression
 			HttpResponseMessage response = await httpClient.GetAsync(uri.ToString());
 			response.EnsureSuccessStatusCode();
 
-			responseBodyAsText = await response.Content.ReadAsStringAsync();
+			byte[] bytes = await response.Content.ReadAsByteArrayAsync();
+			responseBodyAsText = Encoding.Default.GetString(bytes);
 			Regex reg = new Regex(TbPattern.Text);
 			MatchCollection matches = reg.Matches(responseBodyAsText);
 
